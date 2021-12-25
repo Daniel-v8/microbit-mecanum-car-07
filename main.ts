@@ -32,4 +32,22 @@ basic.forever(function () {
     if (I == 0) {
         wuKong.mecanumRun(wuKong.RunList.stop)
     }
+    if (I == 7) {
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+    }
+    if (I == 8) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
 })
